@@ -5,11 +5,11 @@ A simple pull-to-refresh library that uses css3 transforms and a rAF loop for sm
 ```javascript
 
 // Basic usage
-PullToRefresh(options, callback);
+new PullToRefresh(options, callback);
 
 // Options
-options.el - The pull to refresh element
-options.scrollEl - The container that needs to scroll
+options.el - The pull to refresh element selector
+options.scrollEl - The container that needs to scroll selector
 options.offset - If there is a fixed header you can set an offset.
 
 // Example
